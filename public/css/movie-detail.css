@@ -1,0 +1,34 @@
+.movie-detail-main-container {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.movie-detail-image {
+    width: 250px;
+    height: 400px;
+}
+
+.movie-detail-container {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.rating-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.movie-detail p {
+    display: flex;
+    flex-direction: wrap;
+}
+
+.movie-description {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.director-name {
+    margin-left: 5px;
+}

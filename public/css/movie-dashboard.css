@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    border-bottom: 5px solid #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container {
+    padding: 25px 0px 25px 25px;
+    font-size: 25px;
+}
+
+.search-container {
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    margin-left: 10px;
+}
+
+.dashboard-main-container {
+    margin: 10px 0px 10px 10px;
+    font-size: 20px;
+}
+
+.dashboard-main-container p {
+    margin-left: 5px;
+}
+
+.movie-image {
+    width: 300px;
+    height: 200px;
+    margin: 5px
+}
+
+.listing-container {
+    display: flex;
+    flex-direction: row;
+}
